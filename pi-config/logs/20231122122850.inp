@@ -1,0 +1,5 @@
+@table piarc 
+@mode edit 
+@istru tag, time, value, mode 
+Manual_logger, 22-Nov-2023 00:00:00, '12', replace 
+Manual_logger1, 22-Nov-2023 00:00:00, '12', replace 

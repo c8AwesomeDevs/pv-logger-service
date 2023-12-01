@@ -1,0 +1,4 @@
+@table piarc 
+@mode edit 
+@istru tag, time, value, mode 
+Element2, 08-Nov-2023 16:40:30, '23.23', replace 

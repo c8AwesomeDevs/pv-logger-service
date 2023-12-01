@@ -1,0 +1,1 @@
+piconfig < %1
