@@ -19,7 +19,8 @@ class LoggerController extends Controller
             $tag_timestamp = $timestamp;
             if($p->timestamp_date) {
                 $date = date('d-M-Y', strtotime($p->timestamp_date));
-                $time = date('H:i:s', strtotime($p->timestamp_date));
+                $t = strtotime($p->timestamp_time);
+                $time = date('H:i:s', strtotime('-30 minutes', $t));
                 $tag_timestamp = $date . ' ' . $time;
             }
 
